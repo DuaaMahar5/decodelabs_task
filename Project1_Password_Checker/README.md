@@ -1,4 +1,4 @@
-# Project 1: Password Strength Checker 🔐
+# Project 1: Password Strength Checker 
 
 **DecodeLabs Cyber Security Internship **
 
