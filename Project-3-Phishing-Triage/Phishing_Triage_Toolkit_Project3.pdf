@@ -1,0 +1,47 @@
+PHISHING TRIAGE TOOLKIT
+Project 3 – Phishing Awareness Analysis
+Objective
+Analyze common phishing attacks, identify warning signs, and provide a simple checklist and decision tree for non-technical users.
+Sample Analysis
+Sample 1: Mass Phishing
+Scenario: Fake PayPal account suspension using a lookalike domain.
+Red Flags: Generic greeting, fake domain, urgency, suspension threat.
+Why Unsafe: Credential theft.
+Verdict: Malicious
+Sample 2: Spear Phishing
+Scenario: Fake IT email requesting SSO renewal.
+Red Flags: Similar-looking company domain, internal project references, external login page.
+Why Unsafe: Steals company credentials.
+Verdict: Malicious
+Sample 3: Whaling/BEC
+Scenario: Fake CEO requests confidential wire transfer.
+Red Flags: Unknown domain, secrecy, deadline, avoids verification.
+Why Unsafe: Financial fraud.
+Verdict: Malicious
+Sample 4: Smishing
+Scenario: Fake package delivery SMS.
+Red Flags: Unknown number, fake tracking site, urgency, no tracking ID.
+Why Unsafe: Steals personal data.
+Verdict: Malicious
+Sample 5: Callback Phishing
+Scenario: Fake Microsoft billing email asking to call support.
+Red Flags: Fake sender, urgent payment, phone call instead of link.
+Why Unsafe: Remote-access or payment scam.
+Verdict: Malicious
+Sample 6: Legitimate Email
+Scenario: Internal project update.
+Red Flags: Correct domain, no pressure, expected attachment.
+Why Unsafe: Normal business communication.
+Verdict: Safe
+Non-Expert Triage Checklist
+Check the sender's full email address.
+Watch for lookalike domains and spelling changes.
+Be cautious of urgency, fear, or secrecy.
+Hover over links before clicking.
+Never share passwords or MFA codes from email links.
+Verify unusual requests through another trusted channel.
+Report suspicious emails to the security team.
+Decision Tree
+1. Verify sender ? 2. Check content for pressure or unusual requests ? 3. Inspect links or attachments ? 4. If suspicious, report and do not interact; otherwise proceed normally.
+Conclusion
+Most phishing attacks rely on fake domains, urgency, or requests that bypass normal procedures. By checking the sender, verifying links, and reporting suspicious messages, users can avoid most phishing attempts.
